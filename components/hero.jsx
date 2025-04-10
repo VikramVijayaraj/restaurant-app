@@ -4,13 +4,13 @@ import { Button } from "./ui/button";
 
 export default function Hero() {
   return (
-    <section className="flex items-center h-96 my-20">
+    <section className="flex flex-col md:flex-row items-center h-full lg:h-96 my-10 lg:my-20 text-center md:text-left space-y-4 lg:space-y-0">
       {/* Left part */}
-      <div className="w-1/2 space-y-8">
-        <h1 className="text-6xl font-black font-oswald">
+      <div className="w-full lg:w-1/2 space-y-4 lg:space-y-8">
+        <h1 className="text-4xl lg:text-6xl font-black font-oswald">
           Dive Into Delicious Meal Dishes 😍
         </h1>
-        <p className="text-lg">
+        <p className="lg:text-lg">
           Discover a world of bold flavors and fresh ingredients. From signature
           classics to chef-curated specials, every dish is made to satisfy your
           cravings and elevate your dining experience. Come hungry, leave happy.
@@ -22,8 +22,8 @@ export default function Hero() {
       </div>
 
       {/* Right part */}
-      <div className="w-1/2">
-        <img src={"/images/hero-img-1.png"} className="h-96 mx-auto" />
+      <div className="w-full lg:w-1/2">
+        <img src={"/images/hero-img-1.png"} className="lg:h-96 mx-auto" />
       </div>
     </section>
   );

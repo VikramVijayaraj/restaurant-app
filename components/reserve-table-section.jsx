@@ -4,9 +4,9 @@ import { Button } from "./ui/button";
 
 export default function ReserveTableSection() {
   return (
-    <div className="flex items-center pb-10 pl-20">
-      <div className="w-1/2 space-y-6">
-        <h1 className="capitalize text-4xl font-oswald font-black">
+    <div className="flex flex-col md:flex-row items-center pb-10 lg:pl-20 text-center md:text-left">
+      <div className="w-full lg:w-1/2 space-y-4 lg:space-y-6">
+        <h1 className="capitalize text-3xl md:text-4xl font-oswald font-black">
           do you have any plan today? Reserve your table
         </h1>
         <p>
@@ -20,7 +20,7 @@ export default function ReserveTableSection() {
       </div>
 
       <div className="w-1/2">
-        <img src={"/images/table.png"} className="h-80 mx-auto" />
+        <img src={"/images/table.png"} className="lg:h-80 mx-auto" />
       </div>
     </div>
   );

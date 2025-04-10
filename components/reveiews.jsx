@@ -3,11 +3,11 @@ import ReviewCard from "./review-card";
 export default function Reveiews() {
   return (
     <div>
-      <h1 className="text-center text-4xl font-oswald font-black mb-10">
+      <h1 className="text-center text-3xl lg:text-4xl font-oswald font-black mb-5 lg:mb-10">
         What Our Customers Say
       </h1>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-10">
         <ReviewCard
           review="The flavors were absolutely delightful, with a perfect balance of spices
         that brought the dishes to life. The butter chicken was tender and

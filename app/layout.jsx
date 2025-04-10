@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={` bg-[#FFFCF7] ${boldonse.variable} ${oswald.variable}`}>
-        <div className="px-20 my-10">
+        <div className="px-10 lg:px-20 lg:my-10">
           <Navbar />
           {children}
         </div>

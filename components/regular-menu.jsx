@@ -15,10 +15,10 @@ export default function RegularMenu() {
 
   return (
     <section id="menu">
-      <h1 className="text-center text-4xl font-oswald font-black mb-10">
+      <h1 className="text-center text-3xl lg:text-4xl font-oswald font-black mb-5 lg:mb-10">
         Our Menu
       </h1>
-      <ul className="flex justify-center items-center gap-8 mb-10">
+      <ul className="flex justify-center items-center gap-2 lg:gap-8 mb-5 lg:mb-10">
         <li
           onClick={() => handleClick("breakfast")}
           className={`border border-primary w-36 h-10 flex items-center justify-center rounded-full hover:bg-primary cursor-pointer ${

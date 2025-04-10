@@ -5,7 +5,7 @@ import Reveiews from "@/components/reveiews";
 
 export default function Home() {
   return (
-    <div className="space-y-20">
+    <div className="space-y-10 lg:space-y-20">
       <Hero />
       <RegularMenu />
       <Reveiews />

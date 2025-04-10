@@ -1,9 +1,9 @@
 export default function Footer() {
   return (
-    <div className="bg-black px-20">
-      <div className="grid grid-cols-4 gap-8 text-white py-10 px-4">
+    <div className="bg-black lg:px-20 text-center lg:text-left">
+      <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-8 text-white py-10 px-4">
         <div>
-          <h3 className="font-bold mb-4">About Us</h3>
+          <h3 className="font-bold mb-2 lg:mb-4">About Us</h3>
           <ul className="space-y-2">
             <li>
               <a href="#" className="hover:underline">
@@ -23,7 +23,7 @@ export default function Footer() {
           </ul>
         </div>
         <div>
-          <h3 className="font-bold mb-4">Menu</h3>
+          <h3 className="font-bold mb-2 lg:mb-4">About Us</h3>
           <ul className="space-y-2">
             <li>
               <a href="#" className="hover:underline">
@@ -48,11 +48,11 @@ export default function Footer() {
           </ul>
         </div>
         <div>
-          <h3 className="font-bold mb-4">Support</h3>
+          <h3 className="font-bold mb-2 lg:mb-4">About Us</h3>
           <ul className="space-y-2">
             <li>
               <a href="#" className="hover:underline">
-                Contact Us
+                Contact
               </a>
             </li>
             <li>
@@ -68,7 +68,7 @@ export default function Footer() {
           </ul>
         </div>
         <div>
-          <h3 className="font-bold mb-4">Legal</h3>
+          <h3 className="font-bold mb-2 lg:mb-4">About Us</h3>
           <ul className="space-y-2">
             <li>
               <a href="#" className="hover:underline">
@@ -89,7 +89,7 @@ export default function Footer() {
         </div>
       </div>
 
-      <p className="py-10 text-white text-sm text-center">
+      <p className="pb-10 lg:py-10 text-white text-sm text-center">
         © 2025 Restaurant. All rights reserved.
       </p>
     </div>
